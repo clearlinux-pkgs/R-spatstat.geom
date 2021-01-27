@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.geom
 Version  : 1.65.5
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/spatstat.geom_1.65-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.geom_1.65-5.tar.gz
 Summary  : Geometrical Functionality of the 'spatstat' Package
@@ -14,6 +14,7 @@ Requires: R-spatstat.geom-lib = %{version}-%{release}
 Requires: R-deldir
 Requires: R-polyclip
 Requires: R-spatstat.data
+Requires: R-spatstat.sparse
 Requires: R-spatstat.utils
 BuildRequires : R-deldir
 BuildRequires : R-polyclip
@@ -44,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1611782167
+export SOURCE_DATE_EPOCH=1611788248
 
 %install
-export SOURCE_DATE_EPOCH=1611782167
+export SOURCE_DATE_EPOCH=1611788248
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
