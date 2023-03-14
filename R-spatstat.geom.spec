@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.geom
 Version  : 3.1.0
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/spatstat.geom_3.1-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.geom_3.1-0.tar.gz
 Summary  : Geometrical Functionality of the 'spatstat' Family
@@ -20,9 +20,6 @@ BuildRequires : R-polyclip
 BuildRequires : R-spatstat.data
 BuildRequires : R-spatstat.utils
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 on them. Data types include point patterns, windows (domains),
@@ -59,10 +56,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678752325
+export SOURCE_DATE_EPOCH=1678832105
 
 %install
-export SOURCE_DATE_EPOCH=1678752325
+export SOURCE_DATE_EPOCH=1678832105
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
