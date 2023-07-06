@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-spatstat.geom
-Version  : 3.2.1
-Release  : 24
-URL      : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-1.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-1.tar.gz
+Version  : 3.2.2
+Release  : 25
+URL      : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-2.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-2.tar.gz
 Summary  : Geometrical Functionality of the 'spatstat' Family
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -59,10 +59,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683647589
+export SOURCE_DATE_EPOCH=1688666188
 
 %install
-export SOURCE_DATE_EPOCH=1683647589
+export SOURCE_DATE_EPOCH=1688666188
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
