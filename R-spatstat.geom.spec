@@ -7,7 +7,7 @@
 #
 Name     : R-spatstat.geom
 Version  : 3.2.9
-Release  : 31
+Release  : 32
 URL      : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.geom_3.2-9.tar.gz
 Summary  : Geometrical Functionality of the 'spatstat' Family
